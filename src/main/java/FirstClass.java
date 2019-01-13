@@ -1,6 +1,14 @@
 public class FirstClass {
 
-    private String name = "Vitalii";
+    public FirstClass(String name) {
+        this.name = name;
+    }
+
+    public FirstClass() {
+        // silence
+    }
+
+    private String name;
     public static String staticVar = "I'm static variable";
 
     public String getName() {
