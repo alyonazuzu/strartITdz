@@ -1,6 +1,11 @@
 package homework1;
 import java.util.Scanner;
 
+/* Задание 2
+1. Создать массив на 10 чисел.
+2. Ввести с клавиатуры 10 чисел и записать их в массив.
+3. Вывести на экран элементы массива в обратном порядке, каждое значение выводить с новой строки.  */
+
 public class Task2 {
     public static void main(String[] args) {
         Task2 task2 = new Task2();
